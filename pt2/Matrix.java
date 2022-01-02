@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Matrix {
     
-    static Scanner in = new Scanner(System.in);
-    static int row, col, i, j;
-    static int matrix1[][] = new int[3][3];
-    static int matrix2[][] = new int[row][col];
-    static int resultMatrix[][] = new int[row][col];
+    public static Scanner in = new Scanner(System.in);
+    public static int row, col, i, j;
+    public static int matrix1[][] = new int[3][3];
+    public static int matrix2[][] = new int[row][col];
+    public static int resultMatrix[][] = new int[row][col];
     
     public static void main(String args[]) {
         getMatrix();
